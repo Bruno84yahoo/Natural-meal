@@ -91,6 +91,19 @@ strong {
     padding: 2em 1em;
 }
 
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.container-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 50vh;
+}
+
+
 /* =================
    media queries 
    ================= */
@@ -120,5 +133,10 @@ strong {
         display: flex;
         flex-direction: column;
         justify-content: center;
-}
+    }
    
+    .container-intro {
+        height: 100%;
+    }
+
+}
